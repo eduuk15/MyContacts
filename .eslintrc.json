@@ -11,6 +11,10 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+		"no-unused-vars": [
+			"error",
+			{ "argsIgnorePattern": "next" }
+		],
         "indent": [
             "error",
             "tab"
